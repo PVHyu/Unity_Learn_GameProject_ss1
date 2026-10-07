@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class ItemSlot : SaiMonoBehaviour, IDropHandler
+public class ItemSlot : BaseMonoBehaviour, IDropHandler
 {
     public void OnDrop(PointerEventData eventData)
     {

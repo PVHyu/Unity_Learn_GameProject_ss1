@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-public class DragItem : SaiMonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
+public class DragItem : BaseMonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
     [SerializeField] protected Image image;
     [SerializeField] protected Transform realParent;

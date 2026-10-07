@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class UIHotKeyCtrl : SaiMonoBehaviour
+public class UIHotKeyCtrl : BaseMonoBehaviour
 {
     private static UIHotKeyCtrl instance;
     public static UIHotKeyCtrl Instance { get => instance; }

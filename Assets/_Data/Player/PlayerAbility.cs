@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerAbility : SaiMonoBehaviour
+public class PlayerAbility : BaseMonoBehaviour
 {
     public virtual void Active(AbilitiesCode abilitiesCode)
     {

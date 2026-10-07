@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public abstract class UIHotKeyAbtract : SaiMonoBehaviour
+public abstract class UIHotKeyAbtract : BaseMonoBehaviour
 {
     [SerializeField] protected UIHotKeyCtrl hotKeyCtrl;
 
