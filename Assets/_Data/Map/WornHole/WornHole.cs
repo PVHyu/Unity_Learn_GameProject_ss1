@@ -4,7 +4,7 @@ using System.Xml.Serialization;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class WornHole : SaiMonoBehaviour
+public class WornHole : BaseMonoBehaviour
 {
     protected string sceneName = "GalaxyDemo";
 

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public abstract class PlayerAbstract : SaiMonoBehaviour
+public abstract class PlayerAbstract : BaseMonoBehaviour
 {
     [SerializeField] protected PlayerCtrl playerCtrl;
 

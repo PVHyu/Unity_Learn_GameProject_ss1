@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ObjLookAtTarget : SaiMonoBehaviour
+public class ObjLookAtTarget : BaseMonoBehaviour
 {
     [Header("Look At Target")]
     [SerializeField] protected Vector3 targetPosition;

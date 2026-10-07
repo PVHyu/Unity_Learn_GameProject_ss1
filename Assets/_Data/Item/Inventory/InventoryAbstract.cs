@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class InventoryAbstract : SaiMonoBehaviour
+public class InventoryAbstract : BaseMonoBehaviour
 {
     [Header("Inventory Abstract")]
     [SerializeField] protected Inventory inventory;

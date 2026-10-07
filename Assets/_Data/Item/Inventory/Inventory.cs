@@ -2,7 +2,7 @@ using UnityEngine;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 
-public class Inventory : SaiMonoBehaviour
+public class Inventory : BaseMonoBehaviour
 {
     [SerializeField] protected int maxSlot = 7;
     [SerializeField] protected List<ItemInventory> items;

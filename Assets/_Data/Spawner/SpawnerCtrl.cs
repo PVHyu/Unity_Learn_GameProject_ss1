@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class SpawnerCtrl : SaiMonoBehaviour
+public class SpawnerCtrl : BaseMonoBehaviour
 {
     [SerializeField] protected Spawner spawner;
     public Spawner Spawner => spawner;

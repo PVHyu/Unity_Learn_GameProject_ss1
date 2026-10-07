@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PlayerCtrl : SaiMonoBehaviour
+public class PlayerCtrl : BaseMonoBehaviour
 {
     private static PlayerCtrl instance;
     public static PlayerCtrl Instance => instance;

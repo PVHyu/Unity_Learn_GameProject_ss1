@@ -1,7 +1,7 @@
 using System.Xml.Serialization;
 using UnityEngine;
 
-public abstract class Despawn : SaiMonoBehaviour
+public abstract class Despawn : BaseMonoBehaviour
 {
     protected virtual void FixedUpdate()
     {

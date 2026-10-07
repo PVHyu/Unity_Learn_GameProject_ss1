@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Level : SaiMonoBehaviour
+public class Level : BaseMonoBehaviour
 {
     [Header("Level")]
     [SerializeField] protected int levelCurrent = 0;

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Threading;
 using UnityEngine;
 
-public class Abilities : SaiMonoBehaviour
+public class Abilities : BaseMonoBehaviour
 {
     [Header("Abilities")] 
     [SerializeField] protected AbilityObjectCtrl abilityObjectCtrl;

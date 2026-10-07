@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class UIInventoryAbstract : SaiMonoBehaviour
+public abstract class UIInventoryAbstract : BaseMonoBehaviour
 {
     [Header("Inventory Abstract")]
     [SerializeField] protected UIInventoryCtrl inventoryCtrl;

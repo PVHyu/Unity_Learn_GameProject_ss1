@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class ObjAppearing : SaiMonoBehaviour
+public abstract class ObjAppearing : BaseMonoBehaviour
 {
     [Header("Obj Appearing")] 
 

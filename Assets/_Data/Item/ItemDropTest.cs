@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ItemDropTest : SaiMonoBehaviour
+public class ItemDropTest : BaseMonoBehaviour
 {
     public JunkCtrl junkCtrl;
     public int dropCount = 0;

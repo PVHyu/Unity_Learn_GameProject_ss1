@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public abstract class ShootableObjectAbstract : SaiMonoBehaviour
+public abstract class ShootableObjectAbstract : BaseMonoBehaviour
 {
     [SerializeField] protected ShootableObjectCtrl shootableObjectCtrl;
     public ShootableObjectCtrl ShootableObjectCtrl => shootableObjectCtrl; 

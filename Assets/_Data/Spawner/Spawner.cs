@@ -3,7 +3,7 @@ using System.Reflection.Metadata.Ecma335;
 using System.Xml.Serialization;
 using UnityEngine;
 
-public abstract class Spawner : SaiMonoBehaviour
+public abstract class Spawner : BaseMonoBehaviour
 {
     [SerializeField] protected Transform holder;
     [SerializeField] protected int spawnedCount = 0;

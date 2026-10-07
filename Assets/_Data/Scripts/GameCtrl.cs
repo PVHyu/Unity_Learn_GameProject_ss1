@@ -1,7 +1,7 @@
 using UnityEngine;
 
 
-public class GameCtrl : SaiMonoBehaviour
+public class GameCtrl : BaseMonoBehaviour
 {
     private static GameCtrl instance;
     public static GameCtrl Instance => instance;

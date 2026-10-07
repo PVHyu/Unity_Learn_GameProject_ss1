@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MapCtrl : SaiMonoBehaviour
+public class MapCtrl : BaseMonoBehaviour
 {
     [SerializeField] protected MapLevel mapLevel;
     public MapLevel MapLevel => mapLevel;

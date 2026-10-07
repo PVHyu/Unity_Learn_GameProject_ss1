@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public abstract class JunkAbstract : SaiMonoBehaviour
+public abstract class JunkAbstract : BaseMonoBehaviour
 {
     [SerializeField] protected JunkCtrl junkCtrl;
     public JunkCtrl JunkCtrl => junkCtrl;

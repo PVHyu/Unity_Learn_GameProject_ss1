@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class HPBar : SaiMonoBehaviour
+public class HPBar : BaseMonoBehaviour
 {
     [Header("HP Bar")]
     [SerializeField] protected ShootableObjectCtrl shootableObjectCtrl;

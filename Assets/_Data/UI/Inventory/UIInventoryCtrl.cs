@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class UIInventoryCtrl : SaiMonoBehaviour
+public class UIInventoryCtrl : BaseMonoBehaviour
 {
     [Header("Inv Item Spawner")]
     [SerializeField] protected Transform content;

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class FlameShip : SaiMonoBehaviour
+public class FlameShip : BaseMonoBehaviour
 {
     [SerializeField] protected Transform flame;
     public Transform Flame => flame;

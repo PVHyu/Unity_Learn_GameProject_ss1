@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class ItemCtrl : SaiMonoBehaviour
+public class ItemCtrl : BaseMonoBehaviour
 {
     [Header("Item")]
     [SerializeField] protected ItemDespawn itemDespawn;

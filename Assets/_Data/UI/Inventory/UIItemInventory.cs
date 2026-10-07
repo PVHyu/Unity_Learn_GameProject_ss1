@@ -2,7 +2,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class UIItemInventory : SaiMonoBehaviour
+public class UIItemInventory : BaseMonoBehaviour
 {
     [Header("UI Item Inventory")]
 

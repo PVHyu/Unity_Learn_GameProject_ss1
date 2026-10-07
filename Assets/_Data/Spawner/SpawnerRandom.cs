@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(SpawnerCtrl))]
-public class SpawnerRandom : SaiMonoBehaviour
+public class SpawnerRandom : BaseMonoBehaviour
 {
     [Header("Spawner Random")]
     [SerializeField] protected SpawnerCtrl spawnerCtrl;

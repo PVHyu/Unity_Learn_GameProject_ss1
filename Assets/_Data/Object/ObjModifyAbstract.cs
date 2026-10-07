@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class ObjModifyAbstract : SaiMonoBehaviour
+public class ObjModifyAbstract : BaseMonoBehaviour
 {
     [Header("Modify")]
     [SerializeField] protected ShootableObjectCtrl shootableObjectCtrl;

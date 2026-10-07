@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class ShootableObjectCtrl : SaiMonoBehaviour
+public abstract class ShootableObjectCtrl : BaseMonoBehaviour
 {
     [Header("Shootable Object")]
     [SerializeField] protected Transform model;
