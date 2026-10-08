@@ -4,7 +4,7 @@ using UnityEngine;
 
 public interface IOAppearObserver
 {
-    public abstract void OnAppearStart();
+    public void OnAppearStart();
 
-    public abstract void OnAppearFinish();
+    public void OnAppearFinish();
 }

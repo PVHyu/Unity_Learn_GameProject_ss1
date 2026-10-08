@@ -13,7 +13,7 @@ public class ItemDropSpawner : Spawner
         ItemDropSpawner.instance = this;
     }
 
-    public virtual List<ItemDropRate>  Drop(List<ItemDropRate> dropList, Vector3 pos, Quaternion rot)
+    public virtual List<ItemDropRate> Drop(List<ItemDropRate> dropList, Vector3 pos, Quaternion rot)
     {
         List<ItemDropRate> dropItems = new List<ItemDropRate>();
 
