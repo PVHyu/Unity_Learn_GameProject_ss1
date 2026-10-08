@@ -37,8 +37,10 @@ public class BulletImpact : BulletAbstract
     protected virtual void OnTriggerEnter(Collider other)
     {
         if (other.transform.parent == this.bulletCtrl.Shooter) return;
-
+        if (transform.parent.name ==  "Bullet_2")
+        {
+            if (other.transform.parent.name == "Enemy_1" || other.transform.parent.name == "MotherShip_1") return;
+        }
         this.bulletCtrl.DamageSender.Send(other.transform);
-        
     }
 }

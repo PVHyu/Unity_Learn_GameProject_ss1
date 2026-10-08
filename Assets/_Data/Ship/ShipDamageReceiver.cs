@@ -6,6 +6,14 @@ public class ShipDamageReceiver : DamageReceiver
 {
     protected override void OnDead()
     {
-        //Nothing for
+        string fxName = this.GetOnDeadFXName();
+        Transform fxOnDead = FXSpawner.Instance.Spawn(fxName, transform.position, transform.rotation);
+        Destroy(transform.parent.gameObject);
+        fxOnDead.gameObject.SetActive(true);
+    }
+
+    protected virtual string GetOnDeadFXName()
+    {
+        return FXSpawner.smoke;
     }
 }

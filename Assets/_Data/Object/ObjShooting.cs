@@ -7,6 +7,7 @@ public abstract class ObjShooting : BaseMonoBehaviour
     [SerializeField] protected bool isShooting = false;
     [SerializeField] protected float shootDelay = 0.2f;
     [SerializeField] protected float shootTimer = 0f;
+    [SerializeField] protected BulletType bulletType = BulletType.Bullet_1;
 
     void Update()
     {
@@ -15,10 +16,10 @@ public abstract class ObjShooting : BaseMonoBehaviour
 
     void FixedUpdate()
     {
-        this.Shooting();
+        this.Shooting(this.bulletType.ToString());
     }
 
-    protected virtual void Shooting()
+    protected virtual void Shooting(string bulletType)
     {
         if(!this.isShooting) return;
 
@@ -28,7 +29,7 @@ public abstract class ObjShooting : BaseMonoBehaviour
 
         Vector3 spawnPos = transform.position;
         Quaternion rotation = transform.parent.rotation;
-        Transform newBullet = BulletSpawner.Instance.Spawn(BulletSpawner.bulletOne, spawnPos, rotation);
+        Transform newBullet = BulletSpawner.Instance.Spawn(bulletType, spawnPos, rotation);
 
         if(newBullet == null) return;
 
