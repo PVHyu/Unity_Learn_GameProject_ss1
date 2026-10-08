@@ -27,7 +27,7 @@ public class ItemUpgrade : InventoryAbstract
         if (itemInventory.itemCount < 1) return false;
 
         List<ItemRecipe> upgradeLevels = itemInventory.itemProfile.upgradeLevels;
-        if (!this.ItemUpgradeable(upgradeLevels)) return false;  // Đây là 
+        if (!this.ItemUpgradeable(upgradeLevels)) return false;  
         if (!this.HaveEnoughIngredients(upgradeLevels, itemInventory.upgradeLevel)) return false;
 
         this.DeductIngredients(upgradeLevels, itemInventory.upgradeLevel);
