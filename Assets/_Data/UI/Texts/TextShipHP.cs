@@ -15,6 +15,6 @@
         int hpMx = PlayerCtrl.Instance.CurrentShip.DamageReceiver.HPMax;
         int hp = PlayerCtrl.Instance.CurrentShip.DamageReceiver.HP;
 
-        this.text.SetText(hp + " / " + hpMx);
+        this.text.SetText("HP: " + hp + " / " + hpMx);
     }
 }

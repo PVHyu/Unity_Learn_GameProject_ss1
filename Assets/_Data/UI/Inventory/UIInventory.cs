@@ -31,7 +31,6 @@ public class UIInventory : UIInventoryAbstract
         //this.ShowItem();
     }
 
-
     public virtual void Toggle()
     {
         this.isOpen = !this.isOpen;
@@ -44,7 +43,7 @@ public class UIInventory : UIInventoryAbstract
         this.InventoryCtrl.gameObject.SetActive(true);
         this.isOpen = true;
     }
-
+    
     public virtual void Close()
     {
         this.InventoryCtrl.gameObject.SetActive(false);
